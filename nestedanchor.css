@@ -1,0 +1,12 @@
+.link {
+  color:blue;
+  cursor:pointer;
+}
+
+.link.hover {
+  color:red;
+}
+
+.link:active {
+  color:purple;
+}

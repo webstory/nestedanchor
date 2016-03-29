@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>Nested anchor test</title>
+  <link rel="stylesheet" href="nestedanchor.css" />
+  <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="nestedanchor.js"></script>
+  <script>
+  $(function() {
+    $(document).nestedanchor();
+  });
+  </script>
+</head>
+<body>
+  <span class="link" data-href="http://google.com" data-target="_blank">This link take you Google, but <span class="link" data-href="http://bing.com" data-target="_blank">this nested link</span> takes Bing.com</span>
+</body>
+</html>
